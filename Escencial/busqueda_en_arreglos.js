@@ -1,0 +1,29 @@
+"use strict"
+
+//*****************************
+//**** Filtrar Arreglos
+
+var menu = [{
+	  nombre: 'Ceviche',
+	  precio: 20,
+	  pais: 'Perú'
+	},
+	{
+	  nombre: 'Tacos',
+	  precio: 10,
+	  pais: 'México'
+	},
+	{
+	  nombre: 'Pasta',
+	  precio: 50,
+	  pais: 'Italia'
+	},
+	  nombre: 'Quesadilla',
+	  precio: 15,
+	  pais: 'México'
+	}
+}];
+var resultado = null;
+
+resultado = menu.find(platillo => platillo.pais  == 'México');
+console.log(resultado);
