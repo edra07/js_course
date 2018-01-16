@@ -1,7 +1,7 @@
 "use strict"
 
 //*****************************
-//****Operadores de asignación
+//**** Operadores de asignación
 
 var datoA = 10;
 
